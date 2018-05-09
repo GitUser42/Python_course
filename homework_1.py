@@ -1,17 +1,17 @@
 # fill the python code
 
 # 1. assign an integer to the variable x
-
+x=1
 # 2. assign the content of x to the variable y
-
+y=1
 # 3. increase the content of x by 13
-
+x=x+13
 # 4. decrease the content of y by 3
-
+x=x-3
 # 5. assign an empty list to the variable z
-
+z=[]
 # 6. put x and y in this list
-
+z=[x,y]
 # 7. run this file in Python3 and make sure no error occurs
 
 # 8. push this file in your repository
