@@ -6,7 +6,7 @@ solution_student = []
 # c = a + b
 # type(c)
 
-solution_student.append(None)
+solution_student.append(float)
 
 # Assignment 02:
 # a = 5
@@ -14,14 +14,14 @@ solution_student.append(None)
 # c = a // b
 # c
 
-solution_student.append(None)
+solution_student.append(1)
 
 # Assignment 03:
 # a = True
 # b = False
 # (a | (a & b))
 
-solution_student.append(None)
+solution_student.append(True)
 
 # Assignment 04:
 # a = 5
@@ -30,7 +30,7 @@ solution_student.append(None)
 # a = 7
 # b[0]
 
-solution_student.append(None)
+solution_student.append(5)
 
 # Assignment 05:
 # a = [1, 2, 3]
@@ -38,7 +38,7 @@ solution_student.append(None)
 # a.append(4)
 # b['list_a']
 
-solution_student.append(None)
+solution_student.append(a=[1,2,3,4])
 
 # Assignment 06:
 # a = [1, 2, 1, 3, 3, 4, 1]
