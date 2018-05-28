@@ -6,15 +6,31 @@
 # If there is no error when you run the script, you succeeded
 # Push the solution in your repo
 
+# Wo ist der User_input? input()?
+# return, aber kein print? Wie soll man das dann sehen?
+# wie wird der pc_input generiert?
+
 
 def rock_paper_scissors(user_input, computer_input):
     if user_input is 'rock' and computer_input is 'paper':
-        return 'computer wins'
-
-
-
-
-
+        return 'computer wins' 
+    if user_input is "rock"and computer_input is "scissors":
+        return"you win"
+    elif user_input is"rock" and computer_input is "rock":
+        return "tied game"
+    elif user_input is "scissors" and computer_input is "paper":
+        return "you win"
+    elif user_input is "scissors" and computer_input is "rock":
+        return "computer wins"
+    elif user_input is "scissors" and computer_input is "scissors":
+        return "tied game"
+    elif user_input is "paper" and computer_input is "paper":
+        return "tied game"
+    elif user_input is "paper" and computer_input is "scissors":
+        return "computer wins"
+    else:
+        return "you win"
+   
 
 
 if __name__ == "__main__":

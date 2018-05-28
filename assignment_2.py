@@ -38,14 +38,14 @@ solution_student.append(5)
 # a.append(4)
 # b['list_a']
 
-solution_student.append(a=[1,2,3,4])
+solution_student.append([1,2,3,4])
 
 # Assignment 06:
 # a = [1, 2, 1, 3, 3, 4, 1]
 # b = set(a)
 # b
 
-solution_student.append(None)
+solution_student.append({1,2,3,4})
 
 # Assignment 07:
 # a = 'glutamat'
@@ -53,21 +53,21 @@ solution_student.append(None)
 # b = b + 'e'
 # a is b
 
-solution_student.append(None)
+solution_student.append(False)
 
 # Assignment 08:
 # a = (1.3, 7.8)
 # b = a + ('glo',)
 # b
 
-solution_student.append(None)
+solution_student.append((1.3, 7.8, "glo"))
 
 # Assignment 09:
 # a = 'ananas'
 # a.replace('a', 'ana')
 # a
 
-solution_student.append(None)
+solution_student.append("ananas")
 
 # Assignment 10:
 # a = ['x', 9]
@@ -75,14 +75,14 @@ solution_student.append(None)
 # a.append(100)
 # b
 
-solution_student.append(None)
+solution_student.append((["x",9,100], "glob"))
 
 # Assignment 11:
 # a = {1: 'Finn', 2: 'Jake'}
 # a.pop(1)
 # 1 in a
 
-solution_student.append(None)
+solution_student.append(False)
 
 # Assignment 12:
 # x = 0
@@ -90,7 +90,7 @@ solution_student.append(None)
 #     x = x + 1
 # x
 
-solution_student.append(None)
+solution_student.append(1)
 
 # Assignment 13:
 # a = [1, 2, 3]
@@ -100,7 +100,7 @@ solution_student.append(None)
 # else:
 #     print('OH NO')
 
-solution_student.append(None)
+solution_student.append("OH NO")
 
 # Assignment 14:
 # a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
