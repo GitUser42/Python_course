@@ -9,10 +9,11 @@ Created on Tue May 29 18:21:51 2018
 
 
 def average(listy):
-    a=len(listy)
-    b=sum(listy)
-    c = b / a
-    print(c)
+    if type(listy) is list and if listy:  #schauen ob es sich überhaupt um eine liste handelt und ob die liste nicht leer ist
+        Anzahl = len(listy)
+        Gesamt = sum(listy)
+        c = Gesamt / Anzahl
+        print(c)
     
 #average([1,3,4,5,1])
 
