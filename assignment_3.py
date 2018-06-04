@@ -16,7 +16,9 @@ def first_function(number):
 
 def second_function(maxvalue):   # funktioniert nur bei kurzen listen
     list.sort()
-    return [-1]
+    print(list[-1])                #funktioniert nicht :(
+
+second_function([1,2,3,4])
     
 def second_alternative_function(maxvalue):  # auch für lange listen
     a = maxvalue[0]
