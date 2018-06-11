@@ -6,25 +6,26 @@ Created on Tue May 29 18:21:51 2018
 """
 
 
+class mathematik:
 
-
-def average(listy):
-    if type(listy) is list and if listy:  #schauen ob es sich überhaupt um eine liste handelt und ob die liste nicht leer ist
-        Anzahl = len(listy)
-        Gesamt = sum(listy)
-        c = Gesamt / Anzahl
-        print(c)
+    def average(liste):
+        if type(liste) is list and liste:  #schauen ob es sich überhaupt um eine liste handelt und ob die liste nicht leer ist
+            Anzahl = len(liste)
+            Gesamt = sum(liste)
+            c = Gesamt / Anzahl
+            print(c)
     
-#average([1,3,4,5,1])
+   
+
+    def median(list):                           # why are you not working >:(
+        import statistics
+        print(statistics.median(list))
 
 
-def median(list):                           # why are you not working >:(
-    import statistics
-    print(statistics.median(list))
+
+    average([1,3,4,5,1])
     
-#median([1,3,4,2,1])
-
-
+    median([1,3,4,2,1])
 
 
 
